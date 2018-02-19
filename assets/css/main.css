@@ -2338,6 +2338,7 @@
 			display: block;
 			margin: 0 0 2em 0;
 			width: 100%;
+			height: 100%;
 		}
 
 			.image.fit img {
@@ -2814,7 +2815,7 @@
 		background-color: #4686a0;
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed,							fixed,							fixed;
-		background-image: url("images/potatoes.jpg"), url("images/potatoes.jpg"), linear-gradient(45deg, #9dc66b 5%, #4fa49a 75%, #4361c2);
+		background-image: url("images/potatoes.jpg"), url("images/potatoes.jpg"), linear-gradient(45deg, #9dc66b 5%, #4fa49a 20%, #4361c2);
 		background-position: center center,						center center,					center center;
 		background-size: auto,							cover,							cover;
 		overflow: hidden;
