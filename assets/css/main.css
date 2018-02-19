@@ -6,6 +6,19 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
+/*
+.logo {
+  background: url(/images/potatoes.jpeg) top left no-repeat;
+  margin-left: 10px;
+  a {
+    display: block;
+    width: 253px;
+    height: 80px;
+    span {
+      display:none;
+    }
+  }
+}*/
 
 /* Reset */
 
@@ -2710,7 +2723,7 @@
 			background-color: #333;
 			color: rgba(255, 255, 255, 0.75);
 			background-attachment: fixed,							fixed;
-			background-image: url("images/overlay1.png"), url("../../images/header.jpg");
+			background-image: url("images/potatoes.jpg"), url("../../images/potatoes.jpg");
 			background-size: auto,							cover;
 		}
 
@@ -2801,8 +2814,8 @@
 		background-color: #4686a0;
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed,							fixed,							fixed;
-		background-image: url("images/overlay2.png"), url("images/overlay3.svg"), linear-gradient(45deg, #9dc66b 5%, #4fa49a 30%, #4361c2);
-		background-position: top left,						center center,					center center;
+		background-image: url("images/potatoes.jpg"), url("images/potatoes.jpg"), linear-gradient(45deg, #9dc66b 5%, #4fa49a 75%, #4361c2);
+		background-position: center center,						center center,					center center;
 		background-size: auto,							cover,							cover;
 		overflow: hidden;
 		position: relative;
