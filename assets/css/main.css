@@ -6,19 +6,7 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
-/*
-.logo {
-  background: url(/images/potatoes.jpeg) top left no-repeat;
-  margin-left: 10px;
-  a {
-    display: block;
-    width: 253px;
-    height: 80px;
-    span {
-      display:none;
-    }
-  }
-}*/
+
 
 /* Reset */
 
@@ -2170,7 +2158,7 @@
 		input[type="radio"]:checked + label:before {
 			background: #666666;
 			border-color: #666666;
-			color: #ffffff;
+			color: #C8102E;
 			content: '\f00c';
 		}
 
@@ -2733,19 +2721,19 @@
 			}
 
 				.main.style2 a:hover {
-					color: #ffffff;
+					color: #C8102E;
 				}
 
 			.main.style2 h1, .main.style2 h2, .main.style2 h3, .main.style2 h4, .main.style2 h5, .main.style2 h6, .main.style2 strong, .main.style2 b {
-				color: #ffffff;
+				color: #FFFFFF;
 			}
 
 			.main.style2 header p {
-				color: #ffffff;
+				color: #FFFFFF;
 			}
 
 			.main.style2 header.major:after {
-				background: #ffffff;
+				background: #FFFFFF;
 			}
 
 			.main.style2 input[type="submit"],
@@ -2753,8 +2741,8 @@
 			.main.style2 input[type="button"],
 			.main.style2 button,
 			.main.style2 .button {
-				box-shadow: inset 0 0 0 1px #ffffff;
-				color: #ffffff !important;
+				box-shadow: inset 0 0 0 1px #C8102E;
+				color: #C8102E !important;
 			}
 
 				.main.style2 input[type="submit"]:hover,
@@ -2778,8 +2766,8 @@
 				.main.style2 input[type="button"].special,
 				.main.style2 button.special,
 				.main.style2 .button.special {
-					background-color: #ffffff;
-					box-shadow: inset 0 0 0 1px #ffffff !important;
+					background-color: #C8102E;
+					box-shadow: inset 0 0 0 1px #C8102E !important;
 					color: #333 !important;
 				}
 
@@ -2789,7 +2777,7 @@
 					.main.style2 button.special:hover,
 					.main.style2 .button.special:hover {
 						background-color: rgba(255, 255, 255, 0.125) !important;
-						color: #ffffff !important;
+						color: #C8102E !important;
 					}
 
 					.main.style2 input[type="submit"].special:active,
@@ -2801,11 +2789,11 @@
 					}
 
 			.main.style2 ul.major-icons li .icon {
-				border-color: #ffffff;
+				border-color: #C8102E;
 			}
 
 			.main.style2 .icon.major {
-				color: #ffffff;
+				color: #C8102E;
 			}
 
 /* Header */
@@ -2828,19 +2816,19 @@
 		}
 
 			#header a:hover {
-				color: #ffffff;
+				color: #C8102E;
 			}
 
 		#header h1, #header h2, #header h3, #header h4, #header h5, #header h6, #header strong, #header b {
-			color: #ffffff;
+			color: #FFFFFF;
 		}
 
 		#header header p {
-			color: #ffffff;
+			color: #FFFFFF;
 		}
 
 		#header header.major:after {
-			background: #ffffff;
+			background: #FFFFFF;
 		}
 
 		#header input[type="submit"],
@@ -2848,8 +2836,8 @@
 		#header input[type="button"],
 		#header button,
 		#header .button {
-			box-shadow: inset 0 0 0 1px #ffffff;
-			color: #ffffff !important;
+			box-shadow: inset 0 0 0 1px #FFFFFF;
+			color: #FFFFFF !important;
 		}
 
 			#header input[type="submit"]:hover,
@@ -2873,8 +2861,8 @@
 			#header input[type="button"].special,
 			#header button.special,
 			#header .button.special {
-				background-color: #ffffff;
-				box-shadow: inset 0 0 0 1px #ffffff !important;
+				background-color: #C8102E;
+				box-shadow: inset 0 0 0 1px #C8102E !important;
 				color: #4686a0 !important;
 			}
 
@@ -2884,7 +2872,7 @@
 				#header button.special:hover,
 				#header .button.special:hover {
 					background-color: rgba(255, 255, 255, 0.125) !important;
-					color: #ffffff !important;
+					color: #C8102E !important;
 				}
 
 				#header input[type="submit"].special:active,
@@ -2896,11 +2884,11 @@
 				}
 
 		#header ul.major-icons li .icon {
-			border-color: #ffffff;
+			border-color: #C8102E;
 		}
 
 		#header .icon.major {
-			color: #ffffff;
+			color: #C8102E;
 		}
 
 		#header h1 {
@@ -2917,7 +2905,7 @@
 		}
 
 			#header .actions:after {
-				background: #ffffff;
+				background: #FFFFFF;
 				content: '';
 				height: 100vh;
 				left: 50%;
@@ -2999,33 +2987,32 @@
 
 	#footer {
 		padding: 6em 0 6em 0 ;
-		background-color: #4686a0;
-		color: rgba(255, 255, 255, 0.75);
-		background-attachment: fixed,							fixed,							fixed;
-		background-image: url("images/overlay2.png"), url("images/overlay4.svg"), linear-gradient(45deg, #4361c2, #4fa49a 50%, #9dc66b 95%);
-		background-position: top left,						center center,					center center;
-		background-size: auto,							cover,							cover;
+		background-attachment: fixed;
+		background-image: url("images/potatobinplanks.png");
+		background-position: center center;
+		background-size: cover;
 		text-align: center;
+		color: #C8102E;
 	}
 
 		#footer a {
-			border-bottom-color: rgba(255, 255, 255, 0.5);
+			border-bottom-color: rgba(200, 16, 46);
 		}
 
 			#footer a:hover {
-				color: #ffffff;
+				color: #999;
 			}
 
 		#footer h1, #footer h2, #footer h3, #footer h4, #footer h5, #footer h6, #footer strong, #footer b {
-			color: #ffffff;
+			color: #C8102E;
 		}
 
 		#footer header p {
-			color: #ffffff;
+			color: #C8102E;
 		}
 
 		#footer header.major:after {
-			background: #ffffff;
+			background: #C8102E;
 		}
 
 		#footer input[type="submit"],
@@ -3033,8 +3020,8 @@
 		#footer input[type="button"],
 		#footer button,
 		#footer .button {
-			box-shadow: inset 0 0 0 1px #ffffff;
-			color: #ffffff !important;
+			box-shadow: inset 0 0 0 1px #C8102E;
+			color: #C8102E !important;
 		}
 
 			#footer input[type="submit"]:hover,
@@ -3042,7 +3029,7 @@
 			#footer input[type="button"]:hover,
 			#footer button:hover,
 			#footer .button:hover {
-				background-color: rgba(255, 255, 255, 0.125);
+				background-color: rgba(200, 16, 46);
 			}
 
 			#footer input[type="submit"]:active,
@@ -3050,7 +3037,7 @@
 			#footer input[type="button"]:active,
 			#footer button:active,
 			#footer .button:active {
-				background-color: rgba(255, 255, 255, 0.25);
+				background-color: rgba(200, 16, 46);
 			}
 
 			#footer input[type="submit"].special,
@@ -3058,8 +3045,8 @@
 			#footer input[type="button"].special,
 			#footer button.special,
 			#footer .button.special {
-				background-color: #ffffff;
-				box-shadow: inset 0 0 0 1px #ffffff !important;
+				background-color: #C8102E;
+				box-shadow: inset 0 0 0 1px #C8102E !important;
 				color: #4686a0 !important;
 			}
 
@@ -3068,8 +3055,8 @@
 				#footer input[type="button"].special:hover,
 				#footer button.special:hover,
 				#footer .button.special:hover {
-					background-color: rgba(255, 255, 255, 0.125) !important;
-					color: #ffffff !important;
+					background-color: rgba(200, 16, 46) !important;
+					color: #C8102E !important;
 				}
 
 				#footer input[type="submit"].special:active,
@@ -3077,15 +3064,15 @@
 				#footer input[type="button"].special:active,
 				#footer button.special:active,
 				#footer .button.special:active {
-					background-color: rgba(255, 255, 255, 0.25) !important;
+					background-color: rgba(200, 16, 46) !important;
 				}
 
 		#footer ul.major-icons li .icon {
-			border-color: #ffffff;
+			border-color: #C8102E;
 		}
 
 		#footer .icon.major {
-			color: #ffffff;
+			color: #C8102E;
 		}
 
 		#footer .icons {
