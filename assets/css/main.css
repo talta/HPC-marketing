@@ -2799,13 +2799,13 @@
 /* Header */
 
 	#header {
-		padding: 9em 0 9em 0 ;
+		padding: 9em 0 9em 0 ;/*
 		background-color: #4686a0;
-		color: rgba(255, 255, 255, 0.75);
-		background-attachment: fixed,							fixed,							fixed;
-		background-image: url("images/potatoes.jpg"), url("images/potatoes.jpg"), linear-gradient(45deg, #9dc66b 5%, #4fa49a 20%, #4361c2);
-		background-position: center center,						center center,					center center;
-		background-size: auto,							cover,							cover;
+		color: rgba(255, 255, 255, 0.75);*/
+		background-attachment: fixed;
+		background-image: url("images/potatoesonly.png");
+		background-position: cover;
+		background-size: auto;
 		overflow: hidden;
 		position: relative;
 		text-align: center;
