@@ -2346,7 +2346,7 @@
 		}
 
 	ul {
-		list-style: disc;
+		/*list-style: disc;*/
 		margin: 0 0 2em 0;
 		padding-left: 1em;
 	}
@@ -2913,6 +2913,23 @@
 				top: 100%;
 				width: 1px;
 			}
+/*
+#header .action {
+			margin: 2.5em 0 0 0;
+			position: relative;
+		}
+
+			#header .actions:after {
+				background: #FFFFFF;
+				content: '';
+				height: 100vh;
+				left: 50%;
+				position: absolute;
+				top: 100%;
+				width: 1px;
+			}*/
+
+
 
 		#header .inner {
 			-moz-transition: -moz-transform 1.5s ease, opacity 2s ease;
