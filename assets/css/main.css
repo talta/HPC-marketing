@@ -2805,7 +2805,7 @@
 		background-attachment: fixed;
 		background-image: url("images/potatoesonly.png");
 		background-position: cover;
-		background-size: auto;
+		background-size: cover;
 		overflow: hidden;
 		position: relative;
 		text-align: center;
