@@ -2957,6 +2957,7 @@
 			opacity: 1;
 			position: relative;
 			z-index: 1;
+			border: 20px;
 		}
 
 			#header .inner .actions {
