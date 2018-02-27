@@ -2334,13 +2334,20 @@
 		.image.fit {
 			display: block;
 			margin: 0 0 2em 0;
-			width: 100%;
-			height: 100%;
+			width: 50%;
+			height: 50%;
+			margin:auto;
 		}
 
-			.image.fit img {
-				width: 100%;
-			}
+		.image.fit img {
+			width: 100%;
+		}
+
+		#logoimage {
+			width: 100%;
+			background-color: #FFFFFF;
+		}
+
 
 /* List */
 
@@ -2957,24 +2964,23 @@
 			opacity: 1;
 			position: relative;
 			z-index: 1;
-			border: 20px;
 		}
 
-			#header .inner .actions {
-				-moz-transition: -moz-transform 1.25s ease;
-				-webkit-transition: -webkit-transform 1.25s ease;
-				-ms-transition: -ms-transform 1.25s ease;
-				transition: transform 1.25s ease;
-				-moz-transition-delay: 1s;
-				-webkit-transition-delay: 1s;
-				-ms-transition-delay: 1s;
-				transition-delay: 1s;
-				-moz-transform: translateY(0);
-				-webkit-transform: translateY(0);
-				-ms-transform: translateY(0);
-				transform: translateY(0);
-				opacity: 1;
-			}
+		#header .inner .actions {
+			-moz-transition: -moz-transform 1.25s ease;
+			-webkit-transition: -webkit-transform 1.25s ease;
+			-ms-transition: -ms-transform 1.25s ease;
+			transition: transform 1.25s ease;
+			-moz-transition-delay: 1s;
+			-webkit-transition-delay: 1s;
+			-ms-transition-delay: 1s;
+			transition-delay: 1s;
+			-moz-transform: translateY(0);
+			-webkit-transform: translateY(0);
+			-ms-transform: translateY(0);
+			transform: translateY(0);
+			opacity: 1;
+		}
 
 		#header:after {
 			-moz-transition: opacity 1s ease;
