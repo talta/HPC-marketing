@@ -2916,6 +2916,8 @@
 			color: #FFFFFF;
 		}
 
+/*original: do not delete/ change*/
+
 		#header .actions {
 			margin: 2.5em 0 0 0;
 			position: relative;
@@ -2930,8 +2932,33 @@
 				top: 100%;
 				width: 1px;
 			}
-/*
-#header .action {
+
+			
+			/*theresa and zach second attempt*/
+		/*	#header .action {
+			position: relative;
+				margin: 2.5em 0 0 0;
+		}
+
+			#header .actions:after {
+				background: #FFFFFF;
+				content: '';
+				height: 100vh;
+				left: 50%;
+				position: absolute;
+				top: 100%;
+				width: 1px;
+			}*/
+
+/*theresa attempt last night*/
+/*#header .action {
+	background: #FFFFFF;
+				content: '';
+				height: 100vh;
+				left: 50%;
+				position: absolute;
+				top: 100%;
+				width: 1px;
 			margin: 2.5em 0 0 0;
 			position: relative;
 		}
