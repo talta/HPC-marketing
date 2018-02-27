@@ -1807,8 +1807,16 @@
 			transition: none !important;
 		}
 
-	body, input, select, textarea {
-		color: #FFFFFF;
+	body {
+		color: #555;
+		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-size: 16pt;
+		font-weight: 300;
+		line-height: 1.65em;
+	}
+
+	input, select, textarea {
+		color: #555;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 16pt;
 		font-weight: 300;
@@ -1956,7 +1964,7 @@
 	}
 
 	header p {
-		color: #999;
+		color: #FFFFFF;
 		margin: 0 0 1.5em 0;
 		position: relative;
 	}
@@ -2897,6 +2905,7 @@
 
 		#header p {
 			margin: 1em 0 0 0;
+			color: #FFFFFF;
 		}
 
 		#header .actions {
