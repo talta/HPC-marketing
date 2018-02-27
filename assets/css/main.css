@@ -1808,7 +1808,7 @@
 		}
 
 	body, input, select, textarea {
-		color: #666;
+		color: #FFFFFF;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 16pt;
 		font-weight: 300;
@@ -3005,11 +3005,11 @@
 	#footer {
 		padding: 6em 0 6em 0 ;
 		background-attachment: fixed;
-		background-image: url("images/potatoesonlywide.png");
+		background-image: url("images/woodplankswide.png");
 		background-position: center center;
 		background-size: cover;
 		text-align: center;
-		color: #C8102E;
+		color: #FFFFFF;
 	}
 
 		#footer a {
@@ -3017,19 +3017,21 @@
 		}
 
 			#footer a:hover {
-				color: #999;
+				color: #C8102E;
 			}
 
 		#footer h1, #footer h2, #footer h3, #footer h4, #footer h5, #footer h6, #footer strong, #footer b {
-			color: #C8102E;
+			/*color: #C8102E;*/
+			color: #FFFFFF;
 		}
 
 		#footer header p {
-			color: #C8102E;
+			/*color: #C8102E;*/
+			color: #FFFFFF;
 		}
 
 		#footer header.major:after {
-			background: #C8102E;
+			/*background: #C8102E;*/
 		}
 
 		#footer input[type="submit"],
@@ -3038,7 +3040,8 @@
 		#footer button,
 		#footer .button {
 			box-shadow: inset 0 0 0 1px #C8102E;
-			color: #C8102E !important;
+			/*color: #C8102E !important;*/
+			color: #FFFFFF;
 		}
 
 			#footer input[type="submit"]:hover,
@@ -3085,11 +3088,13 @@
 				}
 
 		#footer ul.major-icons li .icon {
-			border-color: #C8102E;
+			/*border-color: #C8102E;*/
+			border-color: #FFFFFF;
 		}
 
 		#footer .icon.major {
 			color: #C8102E;
+			color: #FFFFFF;
 		}
 
 		#footer .icons {
