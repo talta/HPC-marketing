@@ -2334,8 +2334,8 @@
 		.image.fit {
 			display: block;
 			margin: 0 0 2em 0;
-			width: 50%;
-			height: 50%;
+			width: 100%;
+			height: 100%;
 			margin:auto;
 		}
 
@@ -2729,7 +2729,7 @@
 			color: rgba(255, 255, 255, 0.75);
 			background-attachment: fixed,							fixed;
 			background-image: url("images/woodplankswide.png"), url("../../images/woodplankswide.png");
-			background-size: cover,							cover;
+			background-size: cover,	cover;
 		}
 
 			.main.style2 a {
