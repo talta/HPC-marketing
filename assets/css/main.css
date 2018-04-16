@@ -2339,7 +2339,15 @@
 			margin:auto;
 		}
 
-		.image.fit.logo{
+		.image.fit.banner {
+			display: block;
+			margin: 0 0 2em 0;
+			width: 50%;
+			height: 100%;
+			margin:auto;
+		}
+
+		#logoPlacement{
 			display: block;
 			margin: 0 0 2em 0;
 			width: 50%;
