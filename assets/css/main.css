@@ -2339,6 +2339,14 @@
 			margin:auto;
 		}
 
+		.image.fit.logo{
+			display: block;
+			margin: 0 0 2em 0;
+			width: 50%;
+			height: 50%;
+			margin:auto;
+		}
+
 		.image.fit img {
 			width: 100%;
 		}
