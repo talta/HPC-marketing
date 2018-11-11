@@ -1,9 +1,10 @@
 var SquareConnect = require('square-connect');
+require('dotenv').config();
 var defaultClient = SquareConnect.ApiClient.instance;
  
 // Configure OAuth2 access token for authorization: oauth2
 var oauth2 = defaultClient.authentications['oauth2'];
-oauth2.accessToken = "YOUR ACCESS TOKEN";
+oauth2.accessToken = "TEST_KEY";
  
 var api = new SquareConnect.LocationsApi();
  
