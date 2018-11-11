@@ -1,4 +1,5 @@
 var SquareConnect = require('square-connect');
+// var config = require('./config')[app.get('env')];
 require('dotenv').config();
 var defaultClient = SquareConnect.ApiClient.instance;
  
