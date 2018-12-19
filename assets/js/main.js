@@ -48,52 +48,52 @@
 })(jQuery);
 
 
-  function buildForm() {
-    if (SqPaymentForm.isSupportedBrowser()) {
-      var paymentDiv = document.getElementById("form-container");
-      if (paymentDiv.style.display === "none") {
-          paymentDiv.style.display = "block";
-      } 
-      paymentform.build();
-      paymentform.recalculateSize();
-    } else {
-      // Show a "Browser is not supported" message to your buyer
-    }
-  }
+  // function buildForm() {
+  //   if (SqPaymentForm.isSupportedBrowser()) {
+  //     var paymentDiv = document.getElementById("form-container");
+  //     if (paymentDiv.style.display === "none") {
+  //         paymentDiv.style.display = "block";
+  //     } 
+  //     paymentform.build();
+  //     paymentform.recalculateSize();
+  //   } else {
+  //     // Show a "Browser is not supported" message to your buyer
+  //   }
+  // }
 
 
 // paymentForm.build()
 
-var paymentForm = new SqPaymentForm({
- applicationId: applicationId,
- inputClass: 'sq-input',
- cardNumber: {
-   elementId: 'sq-card-number',
-   placeholder: '•••• •••• •••• ••••'
- },
- cvv: {
-   elementId: 'sq-cvv',
-   placeholder: 'CVV'
- },
- expirationDate: {
-   elementId: 'sq-expiration-date',
-   placeholder: 'MM/YY'
- },
- postalCode: {
-   elementId: 'sq-postal-code'
- },
- callbacks: {
-   cardNonceResponseReceived: function (errors, nonce, cardData) {
-     $('card-nonce').value = nonce;
-     $('nonce-form').submit();
-   }
-  }
-});
+// var paymentForm = new SqPaymentForm({
+//  applicationId: applicationId,
+//  inputClass: 'sq-input',
+//  cardNumber: {
+//    elementId: 'sq-card-number',
+//    placeholder: '•••• •••• •••• ••••'
+//  },
+//  cvv: {
+//    elementId: 'sq-cvv',
+//    placeholder: 'CVV'
+//  },
+//  expirationDate: {
+//    elementId: 'sq-expiration-date',
+//    placeholder: 'MM/YY'
+//  },
+//  postalCode: {
+//    elementId: 'sq-postal-code'
+//  },
+//  callbacks: {
+//    cardNonceResponseReceived: function (errors, nonce, cardData) {
+//      $('card-nonce').value = nonce;
+//      $('nonce-form').submit();
+//    }
+//   }
+// });
 
-function requestCardNonce(event) {
- event.preventDefault();
- paymentForm.requestCardNonce();
-}
+// function requestCardNonce(event) {
+//  event.preventDefault();
+//  paymentForm.requestCardNonce();
+// }
 
 
 
