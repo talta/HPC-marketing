@@ -151,7 +151,15 @@
 				<div class="container">
 					<header class="major">
 						<h2 >Products</h2>
+
 					</header>
+					<!-- view cart paypal button -->
+						<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
+							<input type="hidden" name="cmd" value="_s-xclick">
+							<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----">
+							<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_viewcart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+							<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+							</form>
 						<div class="table-wrapper">
 							<table class="alt">
 								<thead>
@@ -163,36 +171,28 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>Small box, Original</td>
-										<td>4 - 8oz bags of Kettle Cooked Potato Chips</td>
-										<td>$12.60</td>
-										<td>
-											<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+										<td>Small box, Original <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
 											<input type="hidden" name="cmd" value="_s-xclick">
 											<input type="hidden" name="hosted_button_id" value="Y2BM6QYRE6AAY">
 											<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
 											<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-											</form>
-										</td>
+											</form></td>
+										<td>4 - 8oz bags of Kettle Cooked Potato Chips</td>
+										<td>$12.60</td>
 									</tr>
 									<tr>
-										<td>Small box, Wavy</td>
-										<td>4 - 8oz bags of Wavy Potato Chips</td>
-										<td>$12.60</td>
-										<td>
-											<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+										<td>Small box, Wavy <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
 											<input type="hidden" name="cmd" value="_s-xclick">
 											<input type="hidden" name="hosted_button_id" value="4WBJ99FEAV6FY">
 											<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
 											<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
 											</form>
 										</td>
+										<td>4 - 8oz bags of Wavy Potato Chips</td>
+										<td>$12.60</td>
 									</tr>
 									<tr>
-										<td>Large box, Original</td>
-										<td>12 - 8oz bags of Kettle Cooked Potato Chips</td>
-										<td>$37.80</td>
-										<td>
+										<td>Large box, Original
 											<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
 											<input type="hidden" name="cmd" value="_s-xclick">
 											<input type="hidden" name="hosted_button_id" value="6VS6D2U8ZF74E">
@@ -200,12 +200,11 @@
 											<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
 											</form>
 										</td>
+										<td>12 - 8oz bags of Kettle Cooked Potato Chips</td>
+										<td>$37.80</td>
 									</tr>
 									<tr>
-										<td>Large box, Wavy</td>
-										<td>12 - 8oz bags of Wavy Potato Chips</td>
-										<td>$37.80</td>
-										<td>
+										<td>Large box, Wavy
 											<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
 											<input type="hidden" name="cmd" value="_s-xclick">
 											<input type="hidden" name="hosted_button_id" value="3HRBVXPTMZGH4">
@@ -213,12 +212,11 @@
 											<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
 											</form>
 										</td>
+										<td>12 - 8oz bags of Wavy Potato Chips</td>
+										<td>$37.80</td>
 									</tr>
 									<tr>
-										<td>Bucket, Original</td>
-										<td>3.5 gallon bucket (approx. 3 lbs) of Kettle Cooked Potato Chips</td>
-										<td>$24.99</td>
-										<td>
+										<td>Bucket, Original
 											<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
 											<input type="hidden" name="cmd" value="_s-xclick">
 											<input type="hidden" name="hosted_button_id" value="EPTZNVRKWLTY6">
@@ -226,12 +224,11 @@
 											<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
 											</form>
 										</td>
+										<td>3.5 gallon bucket (approx. 3 lbs) of Kettle Cooked Potato Chips</td>
+										<td>$24.99</td>
 									</tr>
 									<tr>
-										<td>Bucket, Wavy</td>
-										<td>3.5 gallon bucket (approx. 3 lbs) of Wavy Potato Chips</td>
-										<td>$24.99</td>
-										<td>
+										<td>Bucket, Wavy
 											<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
 											<input type="hidden" name="cmd" value="_s-xclick">
 											<input type="hidden" name="hosted_button_id" value="X352TNA35CLNL">
@@ -239,6 +236,8 @@
 											<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
 											</form>
 										</td>
+										<td>3.5 gallon bucket (approx. 3 lbs) of Wavy Potato Chips</td>
+										<td>$24.99</td>
 									</tr>
 								</tbody>
 								<tfoot>
